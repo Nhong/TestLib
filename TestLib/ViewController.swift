@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import HMSegmentedControl
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var segmentControl: HMSegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        setupView()
     }
 
+    private func setupView() {
+        segmentControl.sectionTitles = ["MDT", "MDA"]
+    }
 
 }
 

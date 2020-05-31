@@ -1,0 +1,16 @@
+PODS:
+  - HMSegmentedControl (1.5.6)
+
+DEPENDENCIES:
+  - HMSegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - HMSegmentedControl
+
+SPEC CHECKSUMS:
+  HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
+
+PODFILE CHECKSUM: 57f97e4bcd6208d2a71c1f11948a14e7140a8f46
+
+COCOAPODS: 1.9.3
